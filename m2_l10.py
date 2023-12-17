@@ -79,10 +79,6 @@ def float_range(start, end, step):
         yield current
         current += step
 
-# Example usage
-start = float(input("Enter num in float for start: "))
-end = float(input("Enter num for end of the range in float: "))
-step = float(input("Enter num in float for step value: "))
 
-for value in float_range(start, end, step):
+for value in float_range(0.8, 2.5, 0.2):
     print(value)
